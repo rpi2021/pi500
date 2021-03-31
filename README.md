@@ -38,12 +38,30 @@ git clone https://github.com/waveshare/WM8960-Audio-HAT
 媒体 kodi ？ 
 
 ### 程序  
+Python 2.7.16  
+Python 3.7.3  
 
-goland  
+goland 
+g ls  
+  1.15.10  
+* 1.16.2  
+
+
+Node.js  nvm
+移动 信号不好，需多次下载ok  
+Now using node v4.9.1 (npm v2.15.11)  
+Now using node v6.17.1 (npm v3.10.10)  
+Now using node v8.17.0 (npm v6.13.4)  
+Now using node v10.24.0 (npm v6.14.11)  
+Now using node v12.21.0 (npm v6.14.11)  
+Now using node vv14.16.0 (npm v6.14.11)  
+
+php -v  
+ 7.3.27   apache2 (2.4.38-3+deb10u4)   
 
 ### 服务  
 
-mariadb-server
+mariadb-server  (1:10.3.27-0+deb10u1)
 
 
 
@@ -57,4 +75,4 @@ php自装apache，无用nginx
 cpolar  
 frp  
 ### 启用自带vnc
-vnc-real  
+vnc-real  realvnc-vnc-viewer
