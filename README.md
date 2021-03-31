@@ -1,40 +1,51 @@
-# Pi3B相关，500G硬盘
+# Pi3B-UI，500G硬盘
 ## 基本想法
-基础、安装自带方式，大全，有UI，常开；ssh/vnc等方式   
-有音箱【WM8960 Audio HAT】
+基础、安装自带方式，大全，有UI，常开
+联接ssh/vnc；多种发现方式ap, cp, frp     
+音箱【WM8960 Audio HAT】
 
 硬盘500G：4主分区    
 300m  引导  
-300G  根rpi  
+300G  rpi根  
 100G  挂fat32     ?  /samba  
 100G  ？？   终端?   32 ui 媒体中心  tf卡？  
 
 固定IP  1.51   
 无线网卡 启用ap  32.1 用于自发现  
 
-pi300 |  key登录  
+pi300 | key登录  
 2020-08-20-raspios-buster-arm64.zip  
 
-### ip ap  
+### 名、热点，ip  
 git clone https://github.com/oblique/create_ap.git   
 
-### 硬盘，硬件  
+### 硬盘，空间，下载
 硬盘引导处理  
 挂分区  
 samba 目录  
+NFS  
 aria2 下载  
-
 
 ### 音  
 git clone https://github.com/waveshare/WM8960-Audio-HAT  
 
+命令行播放
+
 蓝牙音箱   
   pulseaudio-module-bluetooth  
-  shairplay_sync  
+  shairplay_sync 
+
 
 服务 minidlna  
   
 媒体 kodi ？ 
+
+音乐电台  
+
+百度语音  
+
+
+
 
 ### 程序  
 Python 2.7.16  
@@ -62,10 +73,10 @@ php -v
 
 mariadb-server  (1:10.3.27-0+deb10u1)  
 
+monogo 4.4  
 
-
-
-
+  
+  
 php自装apache，无用nginx  
 
 安docker ？？ 60%
