@@ -10,10 +10,9 @@
 100G  ？？   终端?   32 ui 媒体中心  tf卡？  
 
 固定IP  1.51   
-无线网卡 启用ap  32.1 自发现  
+无线网卡 启用ap  32.1 用于自发现  
 
-pi300  
-key登录  
+pi300 |  key登录  
 2020-08-20-raspios-buster-arm64.zip  
 
 ### ip ap  
@@ -29,7 +28,7 @@ aria2 下载
 ### 音  
 git clone https://github.com/waveshare/WM8960-Audio-HAT  
 
-蓝牙音箱
+蓝牙音箱   
   pulseaudio-module-bluetooth  
   shairplay_sync  
 
@@ -43,8 +42,8 @@ Python 3.7.3
 
 goland 
 g ls  
-  1.15.10  
-* 1.16.2  
+1.15.10  
+1.16.2  *   
 
 
 Node.js  nvm  
