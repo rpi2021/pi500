@@ -47,8 +47,8 @@ g ls
 * 1.16.2  
 
 
-Node.js  nvm
-移动 信号不好，需多次下载ok  
+Node.js  nvm  
+移动 信号不好，需多次下载ok   
 Now using node v4.9.1 (npm v2.15.11)  
 Now using node v6.17.1 (npm v3.10.10)  
 Now using node v8.17.0 (npm v6.13.4)  
@@ -61,7 +61,7 @@ php -v
 
 ### 服务  
 
-mariadb-server  (1:10.3.27-0+deb10u1)
+mariadb-server  (1:10.3.27-0+deb10u1)  
 
 
 
